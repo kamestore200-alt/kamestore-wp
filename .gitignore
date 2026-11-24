@@ -1,0 +1,20 @@
+﻿# Archivos sensibles (contienen claves y conexion a BD)
+wp-config.php
+
+# Respaldos pesados, temporales, caches y volcados
+wp-content/wpvividbackups/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/uploads/wpvivid*
+*.zip
+*.tar.gz
+*.sql
+*.log
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
